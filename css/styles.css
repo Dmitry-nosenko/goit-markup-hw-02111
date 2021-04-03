@@ -23,6 +23,7 @@
 
 body {
   color: var(--title-text-color);
+  background-color: var(--header-bcg-color);
 }
 
 .logo {
@@ -64,7 +65,6 @@ body {
 }
 /* features section */
 .features-section {
-  background-color: var(--features-bcg-color);
 }
 
 /* team section */
@@ -88,9 +88,7 @@ body {
 }
 
 /* портфолио */
-.main {
-  background-color: var(--header-bcg-color);
-}
+
 .filter-section .btn {
   background-color: var(--team-bcg-color);
   color: var(--title-text-color);
