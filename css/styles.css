@@ -1,0 +1,106 @@
+/* цвет основного текста #212121 */
+/* цвет дополнительного текста #757575 */
+/* цвет героя текст #FFFFFF */
+/* цвет ховера #2196F3 */
+/* цвет основного фона #E5E5E5 */
+/* цвет доп фона #2F303A */
+/* цвет фона хедера #FFFFFF */
+
+:root {
+  --logo-text-color: #000000;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --hero-title-color: #fff;
+  --header-bcg-color: #fff;
+  --hover-focus-color: #2196f3;
+  --hero-bcg-color: #2f303a;
+  --features-bcg-color: #e5e5e5;
+  --team-bcg-color: #f5f4fa;
+  --footer-bcg-color: #2f303a;
+  --footer-logo-color: #fff;
+  --footer-contact-color: rgba(255, 255, 255, 60%);
+}
+
+body {
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: var(--logo-text-color);
+}
+.logo-item {
+  color: var(--hover-focus-color);
+}
+
+.header {
+  background-color: var(--header-bcg-color);
+}
+
+/* sait-nav */
+.sait-nav .link {
+  color: var(--title-text-color);
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--hover-focus-color);
+}
+.contact .item {
+  color: var(--primary-text-color);
+}
+.contact .item:hover,
+.contact .item:focus {
+  color: var(--hover-focus-color);
+}
+
+/* hero section */
+.hero-section {
+  background-color: var(--hero-bcg-color);
+  color: var(--hero-title-color);
+}
+.button {
+  background-color: var(--hover-focus-color);
+  color: var(--hero-title-color);
+}
+/* features section */
+.features-section {
+  background-color: var(--features-bcg-color);
+}
+
+/* team section */
+.team-section {
+  background-color: var(--team-bcg-color);
+}
+
+/* footer section */
+.footer {
+  background-color: var(--footer-bcg-color);
+}
+.footer .logo {
+  color: var(--footer-logo-color);
+}
+.footer .link {
+  color: var(--footer-contact-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--hover-focus-color);
+}
+
+/* портфолио */
+.main {
+  background-color: var(--header-bcg-color);
+}
+.filter-section .btn {
+  background-color: var(--team-bcg-color);
+  color: var(--title-text-color);
+}
+
+.filter-section .btn:hover,
+.filter-section .btn:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--hero-title-color);
+}
+.project .text {
+  color: var(--primary-text-color);
+}
