@@ -1,45 +1,44 @@
-/* цвет основного текста #212121 */
-/* цвет дополнительного текста #757575 */
-/* цвет героя текст #FFFFFF */
-/* цвет ховера #2196F3 */
-/* цвет основного фона #E5E5E5 */
-/* цвет доп фона #2F303A */
-/* цвет фона хедера #FFFFFF */
-
 :root {
   --logo-text-color: #000000;
   --title-text-color: #212121;
   --primary-text-color: #757575;
-  --hero-title-color: #fff;
-  --header-bcg-color: #fff;
+  --primary-white-color: #fff;
   --hover-focus-color: #2196f3;
-  --hero-bcg-color: #2f303a;
+  --hero-footer-color: #2f303a;
   --features-bcg-color: #e5e5e5;
   --team-bcg-color: #f5f4fa;
-  --footer-bcg-color: #2f303a;
-  --footer-logo-color: #fff;
   --footer-contact-color: rgba(255, 255, 255, 60%);
 }
-
+/* стили index.html */
 body {
   color: var(--title-text-color);
-  background-color: var(--header-bcg-color);
+  background-color: var(--primary-white-color);
+  font-family: roboto, sans-serif;
 }
 
-.logo {
+.header .logo {
   color: var(--logo-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-item {
   color: var(--hover-focus-color);
 }
 
 .header {
-  background-color: var(--header-bcg-color);
+  background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
 }
 
 /* sait-nav */
 .sait-nav .link {
   color: var(--title-text-color);
+}
+.sait-nav .link.current {
+  color: var(--hover-focus-color);
 }
 
 .sait-nav .link:hover,
@@ -55,49 +54,98 @@ body {
 }
 
 /* hero section */
-.hero-section {
-  background-color: var(--hero-bcg-color);
-  color: var(--hero-title-color);
+.hero {
+  background-color: var(--hero-footer-color);
+  color: var(--primary-white-color);
 }
-.button {
+.hero .text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.35;
+}
+.hero .button {
   background-color: var(--hover-focus-color);
-  color: var(--hero-title-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.9;
 }
-/* features section */
-.features-section {
+/* features-section */
+.features .title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.15;
 }
 
+.features .subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.features .headline {
+  font-size: 36px;
+  line-height: 1.15;
+}
 /* team section */
-.team-section {
+.team {
   background-color: var(--team-bcg-color);
+}
+.team p {
+  color: var(--primary-text-color);
+}
+.team .title {
+  font-size: 36px;
+  line-height: 1.15;
+}
+.team .list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* footer section */
 .footer {
-  background-color: var(--footer-bcg-color);
+  background-color: var(--hero-footer-color);
 }
 .footer .logo {
-  color: var(--footer-logo-color);
+  color: var(--primary-white-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
 }
+.footer .text {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .footer .link {
   color: var(--footer-contact-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .footer .link:hover,
 .footer .link:focus {
   color: var(--hover-focus-color);
 }
 
-/* портфолио */
+/* стили portfolio.html */
 
-.filter-section .btn {
+.filter-section .button {
   background-color: var(--team-bcg-color);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 
-.filter-section .btn:hover,
-.filter-section .btn:focus {
+.filter-section .button:hover,
+.filter-section .button:focus {
   background-color: var(--hover-focus-color);
-  color: var(--hero-title-color);
+  color: var(--primary-white-color);
 }
 .project .text {
   color: var(--primary-text-color);
