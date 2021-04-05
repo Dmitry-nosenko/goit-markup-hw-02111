@@ -19,6 +19,7 @@ body {
 .header .logo {
   color: var(--logo-text-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -65,6 +66,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.35;
+  text-align: center;
 }
 .hero .button {
   background-color: var(--hover-focus-color);
@@ -72,18 +74,17 @@ body {
   font-family: inherit;
   font-weight: 500;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
 }
 /* features-section */
 .features .title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.15;
 }
 
 .features .subtitle {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -91,6 +92,7 @@ body {
 .features .headline {
   font-size: 36px;
   line-height: 1.15;
+  text-align: center;
 }
 /* team section */
 .team {
@@ -102,6 +104,7 @@ body {
 .team .title {
   font-size: 36px;
   line-height: 1.15;
+  text-align: center;
 }
 .team .list h3 {
   font-weight: 500;
@@ -146,6 +149,7 @@ body {
   color: var(--title-text-color);
   cursor: pointer;
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
 }
@@ -155,11 +159,13 @@ body {
   background-color: var(--hover-focus-color);
   color: var(--primary-white-color);
 }
-.project {
+.project h3 {
+  font-size: 18px;
   line-height: 2;
 }
 
 .project .text {
   color: var(--primary-text-color);
+  font-size: 16px;
   line-height: 1.9;
 }
