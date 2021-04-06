@@ -169,7 +169,7 @@ body {
   background-color: var(--hover-focus-color);
   color: var(--primary-white-color);
 }
-.project h3 {
+.project .title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
