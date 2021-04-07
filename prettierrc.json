@@ -7,7 +7,7 @@
   "bracketSpacing": true,
   "arrowParens": "avoid",
   "proseWrap": "always",
-  "htmlWhitespaceSensitivity": "css",
+  "htmlWhitespaceSensitivity": "ignor",
   "insertPragma": false,
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
