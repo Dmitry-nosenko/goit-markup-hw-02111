@@ -10,13 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <!-- хедер -->
     <header class="header">
       <nav>
-        <a href="../index.html" class="logo"
+        <a href="../index.html" class="logo link"
           ><span class="logo-item">Web</span>Studio</a
         >
         <ul class="sait-nav list">
@@ -44,10 +48,10 @@
     </header>
     <!-- портфолио -->
     <main class="main">
-      <h1>портфолио</h1>
+      <h1 class="visually-hidden">портфолио</h1>
       <section class="filter-section">
-        <h2>фильтр портфолио</h2>
-        <ul>
+        <h2 class="visually-hidden">фильтр портфолио</h2>
+        <ul class="list">
           <li><button type="button" class="button">Все</button></li>
           <li><button type="button" class="button">Веб-сайты</button></li>
           <li><button type="button" class="button">Приложения</button></li>
@@ -56,8 +60,8 @@
         </ul>
       </section>
       <section class="project">
-        <h2>наше портфолио</h2>
-        <ul>
+        <h2 class="visually-hidden">наше портфолио</h2>
+        <ul class="list">
           <li>
             <img
               src="../img/portfolio/img-1.jpg"
@@ -141,7 +145,7 @@
       >
       <address class="text">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
+        <ul class="list">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a

@@ -16,6 +16,24 @@ body {
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 
 .header .logo {
   color: var(--logo-text-color);
@@ -23,7 +41,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
   letter-spacing: 0.03em;
 }
 .logo-item {
@@ -72,6 +89,8 @@ body {
   line-height: 1.35;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 .hero .button {
   background-color: var(--hover-focus-color);
@@ -125,27 +144,25 @@ body {
 /* footer section */
 .footer {
   background-color: var(--hero-footer-color);
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.7;
 }
 .footer .logo {
   color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  font-weight: 700;
   text-decoration: none;
 }
 .footer .text {
   color: var(--primary-white-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-style: inherit;
 }
 
 .footer .link {
   color: var(--footer-contact-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  text-decoration: none;
 }
 .footer .link:hover,
 .footer .link:focus {
